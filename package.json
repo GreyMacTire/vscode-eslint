@@ -81,7 +81,7 @@
 					"markdownDescription": "The value of `NODE_ENV` to use when running eslint tasks."
 				},
 				"eslint.nodePath": {
-					"scope": "machine-overridable",
+					"scope": "machine",
 					"type": [
 						"string",
 						"null"
@@ -393,7 +393,7 @@
 					"markdownDescription": "Command line options applied when running the task for linting the whole workspace (see https://eslint.org/docs/user-guide/command-line-interface)."
 				},
 				"eslint.runtime": {
-					"scope": "machine-overridable",
+					"scope": "machine",
 					"type": [
 						"string",
 						"null"
@@ -402,7 +402,7 @@
 					"markdownDescription": "The location of the node binary to run ESLint under."
 				},
 				"eslint.execArgv": {
-					"scope": "machine-overridable",
+					"scope": "machine",
 					"anyOf": [
 						{
 							"type": "array",
